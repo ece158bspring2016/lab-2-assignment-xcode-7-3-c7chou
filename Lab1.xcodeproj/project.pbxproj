@@ -15,6 +15,8 @@
 		65E304471CC5F99200706925 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E304461CC5F99200706925 /* PlayersViewController.swift */; };
 		65E304491CC5F9F700706925 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E304481CC5F9F700706925 /* Player.swift */; };
 		65E3044B1CC5FA3B00706925 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E3044A1CC5FA3B00706925 /* SampleData.swift */; };
+		65E33D2D1CDBF954004415F5 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E33D2C1CDBF954004415F5 /* PlayerDetailsViewController.swift */; };
+		65E33D2F1CDC61DD004415F5 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E33D2E1CDC61DD004415F5 /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		65E304461CC5F99200706925 /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		65E304481CC5F9F700706925 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		65E3044A1CC5FA3B00706925 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		65E33D2C1CDBF954004415F5 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDetailsViewController.swift; path = ../PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		65E33D2E1CDC61DD004415F5 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 		654EF9B71CBEFD98004142B4 /* Lab1 */ = {
 			isa = PBXGroup;
 			children = (
+				65E33D2C1CDBF954004415F5 /* PlayerDetailsViewController.swift */,
 				65E304461CC5F99200706925 /* PlayersViewController.swift */,
 				65E304481CC5F9F700706925 /* Player.swift */,
 				65E3044A1CC5FA3B00706925 /* SampleData.swift */,
 				654EF9B81CBEFD98004142B4 /* AppDelegate.swift */,
 				654EF9BA1CBEFD98004142B4 /* ViewController.swift */,
 				654EF9BC1CBEFD98004142B4 /* Main.storyboard */,
+				65E33D2E1CDC61DD004415F5 /* GamePickerViewController.swift */,
 				654EF9BF1CBEFD99004142B4 /* Assets.xcassets */,
 				654EF9C11CBEFD99004142B4 /* LaunchScreen.storyboard */,
 				654EF9C41CBEFD99004142B4 /* Info.plist */,
@@ -146,6 +152,8 @@
 			files = (
 				65E304491CC5F9F700706925 /* Player.swift in Sources */,
 				654EF9BB1CBEFD98004142B4 /* ViewController.swift in Sources */,
+				65E33D2F1CDC61DD004415F5 /* GamePickerViewController.swift in Sources */,
+				65E33D2D1CDBF954004415F5 /* PlayerDetailsViewController.swift in Sources */,
 				654EF9B91CBEFD98004142B4 /* AppDelegate.swift in Sources */,
 				65E3044B1CC5FA3B00706925 /* SampleData.swift in Sources */,
 				65E304471CC5F99200706925 /* PlayersViewController.swift in Sources */,
